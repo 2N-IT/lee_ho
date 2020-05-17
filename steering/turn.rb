@@ -1,10 +1,11 @@
-module Steerman
+module Steering
+  class SteerBrokenError < StandardError; end
   class Turn
     def call(direction)
       if steer.working?
         SteerTurn.call(direction)
       else
-        false # maybe throw an error instead?
+        raise SteerBrokenError
       end
     end
   end

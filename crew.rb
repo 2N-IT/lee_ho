@@ -1,18 +1,19 @@
 class Crew
-  attr_reader :steerman, :foresailman, :mainsailman, :mizzenman
+  attr_reader :steerman, :mainsailman, :mizzenman, :foresailman
 
+  #kolejnosc alfabetyczna czy w kolejnosci ukladu na jachcie ? jak daleko posunac sie z odzwierciedlaniem domeny w kodzie?
   def initialize
-    @steerman =  crew.steerman
-    @foresailman =  Foresailman.new
+    @steerman    =  Steering::SteerMan.new
+    @mizzenman   =  Mizzensail::MizzensailMan.new
     @mainsailman =  Mainsailman.new
-    @mizzenman =  Mizzenman.new
+    @foresailman =  Foresailman.new
   end
 
 
   def ready_about(maneuver)
     all_ready = true
     crew_members.each do |member|
-      all_ready = false if !member.ready?
+      all_ready = false if !member.ready?(maneuver)
     end
     all_ready
   end

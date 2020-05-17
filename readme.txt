@@ -31,7 +31,22 @@ Skipper
 
 
 
+
 #Założenia dot. przyszłego rozwoju gry:
   - załoganci mogą się różnić - różny % awaryjności, mdlenia itp
   - skipper decyduje o wymieniau załogantów
   - każdy żagiel otrzymuje inną kausze której naprawa ma inną logikę
+
+
+Założenia manewru: ( takie komendy muszą zostać wydane i wykonane )
+* (Załoga)Do zwrotu przez sztag!
+* (Steerman)Ster prawo!
+* (Bezanman) bezana szot wybierz!
+* (Fokman)Lewy foka szot luz!
+* (Grotman) grota szot luz!
+* (Bezanman) Bezana szot luz!
+* (Bezanman) Bezana szot wybieraj!
+* (Grotman) grota szot wybieraj!
+* (Fokman)Prawy foka szot wybieraj!
+* (Steerman)Ster zero!
+* (Steerman)Sternik tak trzymać!
