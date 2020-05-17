@@ -1,9 +1,13 @@
 module Skipper
   class LeeHo
+    def initialize
+      @crew = Crew.new
+    end
+
     def call
       Crew.ready_about('lee_ho')
-      SteermanTurn.call('left')
-      MizenSailPull.call
+      Steerman::Turn.call('left')
+      MizenSail::Pull.call(@crew.mizzenman)
       LeftJibSheetRellease.call
       MainsailRelease.call
       MizzenSailRelease.call
@@ -13,6 +17,7 @@ module Skipper
       SteerKeepHerSo.call
       SteerSteady.call
     end
+
   end
 end
 

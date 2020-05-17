@@ -7,9 +7,11 @@
   1) Kausza na żaglu zepsuta  - na kazdym zaglu po 10 wybraniach ( pull, haul )
    a na foku dodatkowo losowo z prawdopodobienstwem 20%
   (jezeli się przyda to kolejne sprawdzenie do fixa ma zwracac info ze zepusty) - trzeba naparwić
-  2) Płetwa sterowa sie podniosła - trzeba wybrać kontrafał (Steer) -
-  3) Crewman nie usłyszał - trzeba powtórzyć komende (Steerman, ForeSailMan, MainSailMan, MizzenSailMan)
+  2) Ster: Morale sternika sa za niske, nie daje rady skręcić sterem (morale < 2) "nie działa" - Skipper może go "zmotywować".
+  3) Żagle: Morale załoganta sa za niskie,  fok: < 3, grot < 2, bezan - zawsze spoko
+  4) Crewman nie usłyszał - trzeba powtórzyć komende (Steerman, ForeSailMan, MainSailMan, MizzenSailMan)
     - MizzenMail z prawdopodienstwem 40%, reszta 20%
+  5) Każda komenda wykonana przez załoganta zmniejsza jego morale o 1. Początkowe morale każdego załoganta to 5
 
 
 #Feature'y gry
