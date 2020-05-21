@@ -1,9 +1,10 @@
 class Boat
   attr_reader :steer, :foresail, :mainsail, :mizzensail
   def initialize
-    @steer = Steer.new
-    @foresail = Foresail.new
-    @mainsail = Mainsail.new
-    @mizzensail = Mizzensail.new
+    @steer = ::Steering::Steer.new
+    @foresail = Foresail::Sail.new
+    @mainsail = Mainsail::Sail.new
+    @mizzen = Mizzen::Sail.new
+    @crew = Crew.new(self)
   end
 end

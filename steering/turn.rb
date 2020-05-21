@@ -2,11 +2,7 @@ module Steering
   class SteerBrokenError < StandardError; end
   class Turn
     def call(direction)
-      if steer.working?
-        SteerTurn.call(direction)
-      else
-        raise SteerBrokenError
-      end
+      Steering::Steer.turn(direction)
     end
   end
 end
