@@ -1,15 +1,35 @@
-PRZEKAZAC IDEE #roastMyCode jej cele, profity i why so fun
+Idea of #roastMyCode: cele, profity, why so fun
 
 Pytania które sobie zadamy:
-- co tu testować ? Jakimi testami? @SmartTesting ? Podpytać @korol
-- gdzie uzyc jakich patternow
+- co tu testować ? Jakimi testami?
+- gdzie uzyc jakich patternow / poidentyfikujemy już użyte patterny
 - czy moze calkiem przeorganizowac strukture kodu
 - jak obslugiwac bledy / railway oriented programming ?
 
+Cele & profity:
+- poszerzenie wiedzy
+- konfrontacja wiedzy i podejść
+- poszerzenie perspektywy
+- uświadomienie sobie, że perfect code nie istnieje, ale zawsze warto do niego dążyć
+
+Why so fun:
+
+Tyle razy widzieliśmy wykłady na temat X, gdzie często przykłady były na siłe.
+Odwrócmy proces. Zaimplementujmy prostą gre - każdy na swój sposób, i pogadajmy o implementacji.
+Tak robimy to na codzień - w swoich zespołach, gdzie perspektywa jest ograniczona do perspektywy doświadczeń zespołu.
+Zidentyfikujmy patterny, antypatterny, pogdybajmy o alternatywnych podejściach.
+Pogdybajmy co i jak powinniśmy testować.
+Dowiedzmy się nowych rzeczy, a czasem przyznajmy, że implementacja poszczególnych elementów w innym języku może być
+ciekawsza.
 
 
 
+About lee_ho game.
 
+Konsolowa gra ma udostępnić graczowi interface konsolowy oraz zestaw komend z uzyciem których ma doprowadzić załogę do
+przeprowadzenia 10 zwrotów przez sztag. Po drodze poszczególne elementy jachtu mogą się psuć, a załoga może tracić morale.
+Z uzyciem naszego konsolowego API jako gracz mamy doprowadzić załoge&jacht do stanu w ktorym wykona sztag 10 razy.
+A potem do portu na grzańca/ciepłą herbatę lub kawę. (ale to już eastern egg)
 
 #Cel gry:
   Wykonać 10 poprawnych sztagów.
@@ -67,6 +87,5 @@ Założenia manewru: ( takie komendy muszą zostać wydane i wykonane )
 * (Fokman)Prawy foka szot wybieraj!
 * (Steerman)Ster zero!
 * (Steerman)Sternik tak trzymać!
-
 
 
