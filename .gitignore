@@ -1,0 +1,5 @@
+/kotlin/build
+/kotlin/.idea
+/kotlin/*.iml
+/kotlin/.DS_STORE
+/kotlin/.gradle
